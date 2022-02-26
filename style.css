@@ -1,0 +1,62 @@
+.btn {
+    text-align: center;
+}
+
+.display{
+    width: 200px;
+    height: auto;
+    resize: none;
+    margin-top: 25%;
+    text-align: center;
+    padding-top:20px;
+    font-size: x-large;
+    background-color: black;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:dimgray;
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 200px;
+    gap: 5px;
+}
+
+.numbers button {
+    background-color: black;
+    color: white;
+    padding: 20px 25px;
+}
+
+.numbers #zero {
+    padding: 20px 60px;
+}
+
+button {
+    padding: 12px 18px;
+    font-size: medium;
+}
+
+.functions {
+    width: 200px;
+    padding: 10px 16px;
+}
+
+.functions button{
+    background-color: purple;
+    color: white;
+}
+
+.functions #equals {
+    display: flex;
+    justify-content: center;
+    padding: 12px 92px;
+}
